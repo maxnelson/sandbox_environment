@@ -4,3 +4,22 @@
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
+
+.container {
+  margin-left: 5rem;
+  margin-top: 10rem;
+}
+.rowContainer {
+  vertical-align: middle;
+}
+.imgContainer {
+  display: inline-block;
+  padding-right: 1rem;
+
+  i {
+    font-size: 12pt;
+  }
+}
+.textContainer {
+  display: inline-block;
+}
