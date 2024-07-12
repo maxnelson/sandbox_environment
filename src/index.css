@@ -1,25 +1,10 @@
-:root {
-  font-family: Helvetica, sans-serif;
-  text-rendering: optimizeLegibility;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-}
+@import "tailwindcss/base";
+@import "tailwindcss/components";
+@import "tailwindcss/utilities";
 
-.container {
-  margin-left: 5rem;
-  margin-top: 10rem;
-}
-.rowContainer {
-  vertical-align: middle;
-}
-.imgContainer {
-  display: inline-block;
-  padding-right: 1rem;
-
-  i {
-    font-size: 12pt;
-  }
-}
-.textContainer {
-  display: inline-block;
+.gradient-text {
+  font-size: 60px;
+  background: linear-gradient(to right, #30cfd0 0%, #330867 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
 }

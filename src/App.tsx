@@ -1,6 +1,5 @@
-import React, { useState, useRef } from "react";
-import { available } from "./data";
-import { SubComponent } from "./components/SubComponent";
+import "./index.css";
+import React from "react";
 import { PageContainer } from "./components/PageContainer";
 
 const App = () => {
